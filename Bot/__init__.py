@@ -14,7 +14,7 @@ TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '5931646626:AAGWH3AYL-qIx7GkQhmWeyp0p5DT3tDwlk8') #BOT Token Add
 API_ID = int(os.environ.get('API_ID', '16734393')) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', 'e49a46ce63b238c429d618c4aa37f52e')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', '5543917190')
+OWNER_ID = int(os.environ.get('OWNER_ID', '5543917190'))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://mirror:mirror@cluster0.fuouswc.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", "-1001787652537")
 BOT_NAME = os.environ.get('BOT_NAME', 'Video_Compressor_AmRoBot')
